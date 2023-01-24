@@ -1,0 +1,1 @@
+Timing info for a function.
