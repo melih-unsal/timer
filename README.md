@@ -6,6 +6,8 @@ pip install git+https://github.com/melih1996/timer.git
 ```
 2) 
 ```
+from time import sleep
 with Timer("your title"):
-    foo()
+    sleep(12)
 ```
+gives "your title : 12 seconds, 12ms"
