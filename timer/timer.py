@@ -20,7 +20,7 @@ class Timer:
         ms = int(1000*diff % 1000)
         res = ""
         for amount,title in zip([days,hours,minutes,seconds,ms],["days","hours","minutes","seconds","ms"]):
-            if amount > 1:
+            if amount > 0:
                 res+=f"{amount} {title}, "
         res = res.strip().rstrip(",")
         if len(res) == 0:
